@@ -1,0 +1,323 @@
+.num {
+  display: inline-block;
+  position: relative;
+  width: 12px;
+  height: 20px;
+  margin-right: 4px;
+  margin-bottom: 8px;
+}
+.num-item {
+  position: absolute;
+  background: #f5f5f5;
+  transition: all 0.3s;
+}
+.num .num-item1 {
+  top: 0px;
+  left: 0px;
+  width: 12px;
+  height: 4px;
+}
+.num .num-item2 {
+  top: 4px;
+  left: 0px;
+  width: 4px;
+  height: 12px;
+}
+.num .num-item3 {
+  top: 4px;
+  left: 4px;
+  width: 4px;
+  height: 12px;
+}
+.num .num-item4 {
+  top: 4px;
+  left: 8px;
+  width: 4px;
+  height: 12px;
+}
+.num .num-item5 {
+  top: 16px;
+  left: 0px;
+  width: 12px;
+  height: 4px;
+}
+.num1 .num-item1 {
+  top: 0px;
+  left: 0px;
+  width: 8px;
+  height: 4px;
+}
+.num1 .num-item2,
+.num1 .num-item3,
+.num1 .num-item4 {
+  top: 4px;
+  left: 4px;
+  width: 4px;
+  height: 12px;
+}
+.num1 .num-item5 {
+  top: 16px;
+  left: 0px;
+  width: 12px;
+  height: 4px;
+}
+.num2 .num-item1 {
+  top: 0px;
+  left: 0px;
+  width: 12px;
+  height: 4px;
+}
+.num2 .num-item2 {
+  top: 8px;
+  left: 0px;
+  width: 4px;
+  height: 8px;
+}
+.num2 .num-item3 {
+  top: 8px;
+  left: 4px;
+  width: 4px;
+  height: 4px;
+}
+.num2 .num-item4 {
+  top: 4px;
+  left: 8px;
+  width: 4px;
+  height: 8px;
+}
+.num2 .num-item5 {
+  top: 16px;
+  left: 0px;
+  width: 12px;
+  height: 4px;
+}
+.num3 .num-item1 {
+  top: 0px;
+  left: 0px;
+  width: 12px;
+  height: 4px;
+}
+.num3 .num-item2 {
+  top: 8px;
+  left: 0px;
+  width: 4px;
+  height: 4px;
+}
+.num3 .num-item3 {
+  top: 8px;
+  left: 4px;
+  width: 4px;
+  height: 4px;
+}
+.num3 .num-item4 {
+  top: 4px;
+  left: 8px;
+  width: 4px;
+  height: 12px;
+}
+.num3 .num-item5 {
+  top: 16px;
+  left: 0px;
+  width: 12px;
+  height: 4px;
+}
+.num4 .num-item1 {
+  top: 0px;
+  left: 8px;
+  width: 4px;
+  height: 4px;
+}
+.num4 .num-item2 {
+  top: 0px;
+  left: 0px;
+  width: 4px;
+  height: 12px;
+}
+.num4 .num-item3 {
+  top: 8px;
+  left: 4px;
+  width: 4px;
+  height: 4px;
+}
+.num4 .num-item4 {
+  top: 4px;
+  left: 8px;
+  width: 4px;
+  height: 12px;
+}
+.num4 .num-item5 {
+  top: 16px;
+  left: 8px;
+  width: 4px;
+  height: 4px;
+}
+.num5 .num-item1 {
+  top: 0px;
+  left: 0px;
+  width: 12px;
+  height: 4px;
+}
+.num5 .num-item2 {
+  top: 4px;
+  left: 0px;
+  width: 4px;
+  height: 8px;
+}
+.num5 .num-item3 {
+  top: 8px;
+  left: 4px;
+  width: 4px;
+  height: 4px;
+}
+.num5 .num-item4 {
+  top: 8px;
+  left: 8px;
+  width: 4px;
+  height: 8px;
+}
+.num5 .num-item5 {
+  top: 16px;
+  left: 0px;
+  width: 12px;
+  height: 4px;
+}
+.num6 .num-item1 {
+  top: 0px;
+  left: 0px;
+  width: 12px;
+  height: 4px;
+}
+.num6 .num-item2 {
+  top: 4px;
+  left: 0px;
+  width: 4px;
+  height: 12px;
+}
+.num6 .num-item3 {
+  top: 8px;
+  left: 4px;
+  width: 4px;
+  height: 4px;
+}
+.num6 .num-item4 {
+  top: 8px;
+  left: 8px;
+  width: 4px;
+  height: 8px;
+}
+.num6 .num-item5 {
+  top: 16px;
+  left: 0px;
+  width: 12px;
+  height: 4px;
+}
+.num7 .num-item1 {
+  top: 0px;
+  left: 0px;
+  width: 12px;
+  height: 4px;
+}
+.num7 .num-item2,
+.num7 .num-item3,
+.num7 .num-item4 {
+  top: 4px;
+  left: 8px;
+  width: 4px;
+  height: 12px;
+}
+.num7 .num-item5 {
+  top: 16px;
+  left: 8px;
+  width: 4px;
+  height: 4px;
+}
+.num8 .num-item1 {
+  top: 0px;
+  left: 0px;
+  width: 12px;
+  height: 4px;
+}
+.num8 .num-item2 {
+  top: 4px;
+  left: 0px;
+  width: 4px;
+  height: 12px;
+}
+.num8 .num-item3 {
+  top: 8px;
+  left: 4px;
+  width: 4px;
+  height: 4px;
+}
+.num8 .num-item4 {
+  top: 4px;
+  left: 8px;
+  width: 4px;
+  height: 12px;
+}
+.num8 .num-item5 {
+  top: 16px;
+  left: 0px;
+  width: 12px;
+  height: 4px;
+}
+.num9 .num-item1 {
+  top: 0px;
+  left: 0px;
+  width: 12px;
+  height: 4px;
+}
+.num9 .num-item2 {
+  top: 4px;
+  left: 0px;
+  width: 4px;
+  height: 8px;
+}
+.num9 .num-item3 {
+  top: 8px;
+  left: 4px;
+  width: 4px;
+  height: 4px;
+}
+.num9 .num-item4 {
+  top: 4px;
+  left: 8px;
+  width: 4px;
+  height: 12px;
+}
+.num9 .num-item5 {
+  top: 16px;
+  left: 0px;
+  width: 12px;
+  height: 4px;
+}
+.num0 .num-item1 {
+  top: 0px;
+  left: 0px;
+  width: 12px;
+  height: 4px;
+}
+.num0 .num-item2 {
+  top: 4px;
+  left: 0px;
+  width: 4px;
+  height: 12px;
+}
+.num0 .num-item3 {
+  top: 8px;
+  left: 8px;
+  width: 4px;
+  height: 4px;
+}
+.num0 .num-item4 {
+  top: 4px;
+  left: 8px;
+  width: 4px;
+  height: 12px;
+}
+.num0 .num-item5 {
+  top: 16px;
+  left: 0px;
+  width: 12px;
+  height: 4px;
+}

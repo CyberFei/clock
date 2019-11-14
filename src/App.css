@@ -1,0 +1,74 @@
+@keyframes fade {
+  from {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.1;
+  }
+  to {
+    opacity: 1;
+  }
+}
+body {
+  padding: 0;
+  margin: 0;
+  background: #eee;
+}
+.App {
+  position: absolute;
+  width: 100%;
+  height: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.clock {
+  display: inline-block;
+  padding: 20px 30px;
+  background: #fff;
+  border: 40px solid #fff;
+  border-radius: 10px;
+  background: #fafafa;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+.clock-con {
+  position: relative;
+  display: inline-block;
+  font-size: 0;
+  margin: 8px 0 0 4px;
+}
+.clock-con::before,
+.clock-con::after {
+  content: "";
+  position: absolute;
+  display: block;
+  left: 244px;
+  top: 32px;
+  width: 12px;
+  height: 12px;
+  background: #aaa;
+  border-radius: 100%;
+  animation: fade 1s infinite;
+}
+.clock-con::after {
+  top: 88px;
+}
+.number {
+  display: inline-block;
+}
+.number.sel .num-item {
+  background: #222;
+}
+.number.hover .num-item {
+  background: lightskyblue;
+}
+.number-block {
+  display: inline-block;
+  margin-right: 24px;
+}
+.number-block:last-child {
+  margin-right: 0;
+}
+.number-block:nth-child(2) {
+  margin-right: 72px;
+}
